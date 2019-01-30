@@ -22,7 +22,7 @@ Generate a visualization of a graph as a DOT file using `./graph_to_dot.release`
 ./gen_uccg.release 100 200 | ./count_mao.release "Symmetry Reduction Tree Decomposition DP"
 
 # Count the MAOs of a randomly generated dense UCCG (100 vertices, 800 edges)
-./gen_uccg.release 100 800 | time ./count_mao.release "Dynamic Programming"
+./gen_uccg.release 100 800 | ./count_mao.release "Dynamic Programming"
 
 # Visualize a randomly generated UCCG (requires dot)
 ./gen_uccg.release 10 20 | ./graph_to_dot.release | dot -Tx11
