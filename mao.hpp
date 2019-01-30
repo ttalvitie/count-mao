@@ -128,5 +128,5 @@ static const vector<pair<string, Z (*)(const GraphData&)>> countMAOMethods = {
     {"He et al. 2016", countMAOUsingHeEtAl2016},
     {"Dynamic Programming", countMAOUsingDynamicProgramming},
     {"Tree Decomposition DP", countMAOUsingTreeDecompositionDP},
-    {"Tree Decomposition DP with symmetry reduction", countMAOUsingTreeDecompositionDPSymmetryReduction}
+    {"Symmetry Reduction Tree Decomposition DP", countMAOUsingTreeDecompositionDPSymmetryReduction}
 };
